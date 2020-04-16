@@ -17,3 +17,13 @@ class Rectangle{
         field = value
     }
 }
+
+fun main(){
+    val rect = Rectangle()
+    rect.height=10
+    rect.width=20
+
+    println("height: ${rect.height}, width: ${rect.width}")
+
+
+}
