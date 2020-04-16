@@ -5,6 +5,15 @@ package study
  *
  */
 class Rectangle{
-    val height:Int = 0
-    val width:Int = 0
+    var height:Int = 0
+    get() = field
+    set(value) {
+        field =value
+    }
+
+    var width:Int = 0
+    get() = field
+    set(value) {
+        field = value
+    }
 }
