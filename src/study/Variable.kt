@@ -1,5 +1,8 @@
 package study
 
+
+import study.Person
+
 /**
  * TODO
  *  Variable & Constructor

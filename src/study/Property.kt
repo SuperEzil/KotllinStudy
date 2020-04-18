@@ -6,7 +6,7 @@ package study
  */
 open class Rectangle{
    var height:Int = 0
-    get() = field
+    get() = field // field 프로퍼티에 의해 생성되는 필드 4.2.4절
     set(value) {
         field =value
     }
